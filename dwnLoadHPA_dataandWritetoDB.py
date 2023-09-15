@@ -37,7 +37,7 @@ hpaTissueName = [None]*len(ensId) # empty list of tissue names
 
 ''' Connect to database'''
 
-cnx, cur = mkTb.dbconnect( '127.0.0.1', 'root','FourLegsWordRate', 'ADC_141118') # connect to DB
+cnx, cur = mkTb.dbconnect( '127.0.0.1', 'root', '', 'ADC_141118') # connect to DB
 
 ''' Make HPA tables in DB =================================================='''
 
