@@ -54,7 +54,7 @@ with open('geneNmENSEBL_Dict26_11_2018.dat', 'rb') as fff:
 
 """ Connect to database ===================================================="""
 
-cnx, cur = mkTb.dbconnect( '127.0.0.1', 'root','Four4Legs!Word#Rate0', 'ADC_211118') # connect to DB
+cnx, cur = mkTb.dbconnect( '127.0.0.1', 'root','', 'ADC_211118') # connect to DB
 
 """ Write data to DB tables ================================================"""
 
